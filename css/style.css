@@ -148,7 +148,7 @@ a {
 .hero {
   position: relative;
   background: var(--navy);
-  height: 420px;
+  height: 500px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -410,9 +410,7 @@ a {
 .project-card {
   background: var(--white);
   border: 1px solid #e2e4ea;
-  box-shadow:
-    0 4px 16px rgba(13, 46, 110, 0.12),
-    0 1px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(13, 46, 110, 0.08);
   overflow: hidden;
   transition:
     transform 0.25s,
@@ -422,10 +420,8 @@ a {
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
-  box-shadow:
-    0 16px 40px rgba(13, 46, 110, 0.18),
-    0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(13, 46, 110, 0.14);
 }
 
 .project-card__img-wrap {
@@ -499,9 +495,7 @@ a {
 
 .news-card {
   overflow: hidden;
-  box-shadow:
-    0 4px 16px rgba(13, 46, 110, 0.12),
-    0 1px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(13, 46, 110, 0.08);
   transition:
     transform 0.25s,
     box-shadow 0.25s;
@@ -510,10 +504,8 @@ a {
 }
 
 .news-card:hover {
-  transform: translateY(-6px);
-  box-shadow:
-    0 16px 40px rgba(13, 46, 110, 0.18),
-    0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(13, 46, 110, 0.14);
 }
 
 .news-card__img-wrap {
@@ -619,15 +611,18 @@ a {
 .footer__left h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 28px;
   color: var(--white);
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   letter-spacing: 1px;
 }
 
 .footer__tagline {
-  color: rgba(255, 255, 255, 0.65);
-  font-size: 14px;
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
   margin-bottom: 40px;
 }
 
