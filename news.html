@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solution Team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .placeholder {
+        height: calc(100vh - 73px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #b0b4c0;
+        letter-spacing: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__inner">
+          <a href="index.html" class="navbar__logo">
+            <img
+              src="images/logo-icon.webp"
+              alt="Solution Team"
+              class="navbar__logo-icon"
+            />
+            <span class="navbar__logo-text">SOLUTION <span>TEAM</span></span>
+          </a>
+          <ul class="navbar__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Our Projects</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="placeholder">To be developed</div>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <h2>GET IN TOUCH</h2>
+          <p class="footer__tagline">
+            Contact Us Today to Discuss Your Project Needs!
+          </p>
+          <div class="footer__cols">
+            <div class="footer__col">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Our Projects</a></li>
+                <li><a href="news.html">News</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__col">
+              <h4>Our Services</h4>
+              <ul>
+                <li class="is-bullet">
+                  <a href="services.html">Retail Consulting</a>
+                </li>
+                <li class="is-bullet">
+                  <a href="services.html">Product Management</a>
+                </li>
+                <li class="is-bullet">
+                  <a href="services.html">Operations Management</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#" class="social-link" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"
+                    />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__right">
+          <form id="contactForm" class="footer__form" novalidate>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              autocomplete="name"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              autocomplete="email"
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              autocomplete="tel"
+            />
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="button" id="sendBtn" class="btn--send">
+              SEND MESSAGE
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-bar"></div>
+        <div class="footer__bottom-text">
+          <p>&copy; 2026 Solution Team. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
