@@ -10,12 +10,25 @@
       name="description"
       content="Solution Team provides expert retail consulting, integrated product management and operations management services. Guiding your projects to success."
     />
+    <!-- Preload critical font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+    /></noscript>
     <link rel="stylesheet" href="css/style.css" />
     <style>
       .fade-in {
@@ -48,6 +61,7 @@
           >
             <img
               src="images/logo-icon.webp"
+              loading="lazy"
               alt="Solution Team"
               class="navbar__logo-icon"
             />
@@ -73,6 +87,9 @@
         src="images/hero-bg.webp"
         alt="Professional team working"
         class="hero__photo"
+        width="1440"
+        height="420"
+        fetchpriority="high"
       />
       <div class="hero__overlay"></div>
       <div class="hero__content">
@@ -110,6 +127,7 @@
             <div class="service-card__icon-wrap">
               <img
                 src="images/icon-retail.webp"
+                loading="lazy"
                 alt="Retail & Product Consulting"
                 class="service-card__icon"
               />
@@ -132,6 +150,7 @@
             <div class="service-card__icon-wrap">
               <img
                 src="images/icon-product.webp"
+                loading="lazy"
                 alt="Integrated Product Management"
                 class="service-card__icon"
               />
@@ -154,6 +173,7 @@
             <div class="service-card__icon-wrap">
               <img
                 src="images/icon-operations.webp"
+                loading="lazy"
                 alt="Operations Management"
                 class="service-card__icon"
               />
@@ -189,6 +209,7 @@
             <div class="project-card__img-wrap">
               <img
                 src="images/project-retail.webp"
+                loading="lazy"
                 alt="Retail Store Transformation"
                 class="project-card__img"
               />
@@ -203,6 +224,7 @@
             <div class="project-card__img-wrap">
               <img
                 src="images/project-product.webp"
+                loading="lazy"
                 alt="Product Development Strategy"
                 class="project-card__img"
               />
@@ -217,6 +239,7 @@
             <div class="project-card__img-wrap">
               <img
                 src="images/project-operations.webp"
+                loading="lazy"
                 alt="Operational Optimization"
                 class="project-card__img"
               />
@@ -244,6 +267,7 @@
             <div class="news-card__img-wrap">
               <img
                 src="images/news-retail.webp"
+                loading="lazy"
                 alt="New Trends in Retail Industry"
                 class="news-card__img"
               />
@@ -260,6 +284,7 @@
             <div class="news-card__img-wrap">
               <img
                 src="images/news-launch.webp"
+                loading="lazy"
                 alt="Effective Product Launch Tips"
                 class="news-card__img"
               />
@@ -276,6 +301,7 @@
             <div class="news-card__img-wrap">
               <img
                 src="images/news-operations.webp"
+                loading="lazy"
                 alt="Optimizing Operational Efficiency"
                 class="news-card__img"
               />
